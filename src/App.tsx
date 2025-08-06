@@ -160,9 +160,11 @@ function App() {
                 
                 <div className="text-preview">
                   <h4>Metin Önizlemesi</h4>
-                  <p className="extracted-text">
-                    {extractedText.substring(0, 400)}...
-                  </p>
+                  <div className="extracted-text-container">
+                    <p className="extracted-text">
+                      {extractedText}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
